@@ -13,9 +13,16 @@ A re-imagining of the British university in Egypt post graduate registration pag
 
 # Page UI
 
+# 1
 ![ReactApp](https://user-images.githubusercontent.com/41570565/96420759-30020d80-11f6-11eb-8f69-a6259b013122.png)
+
+# 2
 ![React App (3)](https://user-images.githubusercontent.com/41570565/96420937-6c356e00-11f6-11eb-8e02-11087c2266cf.png)
+
+# 3
 ![React App (4)](https://user-images.githubusercontent.com/41570565/96420975-7b1c2080-11f6-11eb-81c3-192debbed305.png)
+
+# 4
 ![React App (5)](https://user-images.githubusercontent.com/41570565/96421072-9c7d0c80-11f6-11eb-8852-1152533a443d.png)
 
 
