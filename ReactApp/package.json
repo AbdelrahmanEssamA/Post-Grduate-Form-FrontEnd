@@ -2,7 +2,7 @@
   "name": "masters-form-spu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abdelrahmanessama.github.io/Post-Grduate-Form-FrontEnd/",
+  "homepage": "https://abdelrahmanessama.github.io/Post-Grduate-Form-FrontEnd/ReactApp/public/index.html",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm rub build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
