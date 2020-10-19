@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 10px 30px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 300;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.nav-bar Li:hover {
+  color: #bf112d;
+  border-bottom: 2px solid #bf112d;
+}
+.profile-icon {
+  float: right;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 5px;
+}
+
+.logo {
+  padding: 4px;
+  float: left;
+  width: 7%;
+  margin-right: 2%;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.486)),
+    url(images/Full-Campus.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#section-tabs {
+  font-size: 0.8em;
+  height: 50px;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  padding: 0;
+  font-weight: bold;
+  list-style: none;
+  text-transform: uppercase;
+}
+.form-wrapper {
+  box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 65%;
+  padding: 25px;
+}
+
+.ProgressBar {
+  width: 90%;
+  margin: 4.5%;
+}
+
+.bar-outer {
+  border-radius: 20px;
+  text-align: left;
+  height: 30px;
+  margin-right: 1px;
+  margin-top: 60px;
+  background: #e2e5e8;
+}
+.bar-inner {
+  padding: 4px;
+  border-radius: 20px;
+  display: inline-block;
+  background: #bf112d;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(left, #ff6565, #701327);
+}
+
+#progress1 {
+  width: 7%;
+}
+
+#progress2 {
+  width: 34%;
+}
+
+#progress3 {
+  width: 61%;
+}
+
+#progress4 {
+  width: 100%;
+}
+
+.ball {
+  background: #fff;
+  width: 22px;
+  display: inline-block;
+  float: right;
+  border-radius: 50px;
+  height: 22px;
+}
+
+.bar-text {
+  margin: 6px -100px;
+}
+
+.bar-text span {
+  display: inline-block;
+  width: 24%;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #bf112d !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #00ff88 !important;
+}
+.MuiStepLabel-label.MuiStepLabel-active {
+  font-size: 22px !important;
+  font-weight: 300;
+}
+.MuiTypography-body2 {
+  font-size: 18px !important;
+  font-weight: 300;
+}
+.MuiInputBase-input {
+  align-self: right !important;
+}
+
+.profilePic {
+  width: 180px;
+  height: 180px;
+
+  border-radius: 10px;
+}
+.imageHolder {
+  width: 180px;
+  height: 180px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.ImgContainer {
+  text-align: center;
+  width: 12rem;
+  box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 3%;
+  margin-top: 80px;
+
+  padding: 20px 20px;
+  margin-left: 5%;
+}
+.upload-container {
+  clear: both;
+  margin-left: 30px;
+}
